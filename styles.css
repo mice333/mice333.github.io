@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+:root {
+    --bg-color: #212b42;
+    --main-color: #add7ff;
+    --caret-color: #962f7e;
+    --sub-color: #5c7da5;
+    --sub-alt-color: #1b2334;
+    --text-color: #91b4d5;
+    --error-color: #df4576;
+    --error-extra-color: #d996ac;
+    --colorful-error-color: #df4576;
+    --colorful-error-extra-color: #d996ac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Intel One Mono', monospace;
+    padding: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--sub-alt-color);
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 200px;
+}
+
+.name {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.repos {
+    margin-left: 10px;
+}
+
+.repo {
+    color: white;
+    background-color: var(--sub-alt-color);
+    border-radius: 15px;
+    width: 400px;
+    padding: 20px;
+}
+
+.repo-name {
+    color: var(--text-color);
+}
+
+.repo-desc {
+    color: var(--sub-color);
+}
+
+.repo-lang {
+    color: var(--error-color);
+    text-align: right;
+}
+
+.footer {
+    color: var(--sub-color);
+}
+
+.footer > a span {
+    color: var(--main-color);
+}
